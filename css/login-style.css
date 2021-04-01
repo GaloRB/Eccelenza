@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #3b80e7, #2f69c5, #2354a4, #153f84, #042c66);
+}
+
+h1 {
+    color: white;
+}
+
+form {
+    width: 300px;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+form .form-floating:nth-child(2n) {
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: #e22520;
+}
+
+.btn:hover {
+    background-color: #c01611;
+}
+
+.none {
+    display: none;
+}
