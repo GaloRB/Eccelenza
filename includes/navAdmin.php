@@ -23,7 +23,7 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Opcion</a>
+                <a class="nav-link" href="#">Opción</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active text-center text-dark h6" aria-current="page" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="includes/sesion.php"' : 'href="../includes/sesion.php"'; ?>>Salir</a>

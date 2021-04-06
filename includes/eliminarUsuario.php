@@ -32,11 +32,11 @@
             <h2 class="text-center m-3">Eliminar usuario </h2> 
 
 
-            <form class="container-fluid mt-5 w-25" method="POST">
+            <form class="container-fluid mt-5 col-md-6" method="POST">
                    
                     <label for="tipoUsuario">Usuario a eliminar:</label>
                     <select class="form-select mt-2" reuired name="usuario" id="usuario" aria-label="Default select example">
-                        <option value="2">Selecciona un usuario...</option>
+                        <option value="2">Seleccionar usuario</option>
                         <?php
                         include ('validarDatos.php');
                         usuariosParaEliminar();

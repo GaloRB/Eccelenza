@@ -32,31 +32,31 @@
             <h2 class="text-center m-3"> Registrar usuario </h2> 
 
 
-            <form class="container-fluid mt-5 w-25" method="POST">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Nombre de usuario:</label>
-                        <input type="text" reuired name="nombre" id="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe el nombre del nuevo usuario...">
-                        
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password:</label>
-                        <input type="password" reuired name="password" id="password" class="form-control" id="exampleInputPassword1" placeholder="Escribe su contraseña">
-                    </div>
-
-                    <label for="tipoUsuario">Tipo de usuario:</label>
-                    <select class="form-select mt-2" reuired name="tipoUsuario" id="tipoUsuario" aria-label="Default select example">
-                        <option value="2">Selecciona un tipo de usuario...</option>
-                        <option value="0">Usuario</option>
-                        <option value="1">Administrador</option>
-                    </select>
+            <form class="container-fluid mt-5 col-md-6" method="POST">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nombre de usuario:</label>
+                    <input type="text" reuired name="nombre" id="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usuario">
                     
-                    <button type="submit" name="registrar" id="registrar" class="btn btn-primary mt-3">Registrar</button>
-                    <!-- Div de alerta en casi de datos incorrectos -->
-                    <div class="mt-2 invisible none" id="answer">
-                        <div id="alertForm" class="alert alert-danger text-center" role="alert">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password:</label>
+                    <input type="password" reuired name="password" id="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                </div>
 
-                        </div>
+                <label for="tipoUsuario">Tipo de usuario:</label>
+                <select class="form-select mt-2" reuired name="tipoUsuario" id="tipoUsuario" aria-label="Default select example">
+                    <option value="2">Seleccionar</option>
+                    <option value="0">Usuario</option>
+                    <option value="1">Administrador</option>
+                </select>
+                
+                <button type="submit" name="registrar" id="registrar" class="btn btn-primary mt-3">Registrar</button>
+                <!-- Div de alerta en casi de datos incorrectos -->
+                <div class="mt-2 invisible none" id="answer">
+                    <div id="alertForm" class="alert alert-danger text-center" role="alert">
+
                     </div>
+                </div>
             </form>
             
 
