@@ -19,7 +19,7 @@
     <title>Cliente</title>
 </head>
 
-<body class="text-center align-items-center d-flex justify-content-center">
+<body class="text-center  d-flex justify-content-center">
     <main class="">
     <img class="mb-4" src="img/logo.png" alt="" width="170">
         <h1>Cliente</h1>

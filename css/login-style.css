@@ -30,3 +30,12 @@ form .form-floating:nth-child(2n) {
 .none {
     display: none;
 }
+
+.navbar {
+    background-color: #e3f2fddc;
+    border-bottom: 3px solid rgb(236, 236, 236);
+}
+
+.navbar-name p {
+    margin: 0;
+}
