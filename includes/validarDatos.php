@@ -110,12 +110,45 @@ function consultarUsuarios(){
       }  
 }
 
+function usuariosParaEliminar(){
+    include ('conection.php');
+        $query = "SELECT * FROM usuarios";
+        $result = mysqli_query($conn,$query);
+        while ($usuario = mysqli_fetch_array($result)) {
+            echo '<option value="'.$usuario['Id_usuario'].'">'.$usuario['Nombre'].'</option>';
+        }
+}
+
+function eliminarUsuario(){
+    include('conection.php');
+
+    
+    $usuario = $_POST['usuario'];
+    
+        $sql="DELETE FROM usuarios WHERE Id_usuario = '$usuario'";
+        $result=mysqli_query($conn,$sql);
+        
+    
+        if(($result)){
+            echo json_encode(array('data'=> 1));
+            
+        }else{
+          echo json_encode(array('data'=> 0));
+        }
+    
+}
+
 if(isset($_POST['user']) && !empty($_POST['user']) && isset($_POST['pass']) && !empty($_POST['pass'])){
     validarUsuario();
 }
 
 if(isset($_POST['nombre']) && !empty($_POST['nombre']) && isset($_POST['password']) && !empty($_POST['password'])){
     registrarUsuario();
+}
+
+
+if(isset($_POST['usuario']) && !empty($_POST['usuario'])){
+    eliminarUsuario();
 }
 
 ?>

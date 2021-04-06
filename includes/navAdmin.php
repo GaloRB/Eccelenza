@@ -19,7 +19,7 @@
                     <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="includes/registrarUsuario.php"' : 'href="../includes/registrarUsuario.php"'; ?>>Registrar Usuario</a></li>
                     <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="includes/usuarios.php"' : 'href="../includes/usuarios.php"'; ?>>Consultar Usuarios</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Eliminar Usuario</a></li>
+                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="includes/eliminarUsuario.php"' : 'href="../includes/Eliminarusuario.php"'; ?>>Eliminar Usuario</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">
