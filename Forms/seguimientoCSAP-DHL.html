@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Seguimiento CSAP-DHL</title>
+  </head>
+  <body>
+    <h1 class="text-center">Seguimiento CSAP-DHL</h1>
+    <div class="container">
+        <form method="POST">
+            <div id="formContainer">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputLinea">Línea</label>
+                  <input type="text" class="form-control" id="inputLinea" placeholder="Línea">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputEstacion">Estación</label>
+                  <input type="text" class="form-control" id="inputEstacion" placeholder="Estación">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputOperacion">Operación</label>
+                  <textarea class="form-control" id="inputOperacion" rows="3"></textarea>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputLider">Lider</label>
+                  <input type="text" class="form-control" id="inputLider" placeholder="Lider">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputVRT">VRT</label>
+                  <input type="text" class="form-control" id="inputVRT" placeholder="VRT">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputIQ">IQ</label>
+                  <input type="text" class="form-control" id="inputIQ" placeholder="IQ">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputSTA">STA</label>
+                  <input type="text" class="form-control" id="inputSTA" placeholder="STA">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="form-group col-12">
+                      <label for="inputTime">Hora de revisión de piezas</label>
+                      <fieldset disabled>
+                        <input class="form-control" type="text"  id="inputTime">
+                      </fieldset>
+                      <input class="form-control" type="number" placeholder="Piezas"  id="inputPiezas">
+                  </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputTipo_de_Defecto">Tipo de Defecto</label>
+                  <input type="text" class="form-control" id="inputTipo_de_Defecto" placeholder="Tipo de Defecto">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputAcciones_Correctivas_Inmediatas">Acciones Correctivas Inmediatas</label>
+                  <textarea class="form-control" id="inputAcciones_Correctivas_Inmediatas" rows="2"></textarea>
+                </div>
+              </div>     
+              <fieldset disabled>
+                  <div class="form-row">
+                      <div class="form-group col-12">
+                          <label for="inputDate">Fecha</label>
+                          <input class="form-control" type="text"  id="inputDate">
+                      </div>
+                  </div>     
+              </fieldset>
+              <div class="form-row">
+                <label for="inputDefecto">Defecto</label>
+                  <select id="inputDefecto" class="form-control">
+                    <option selected>Seleccionar</option>
+                    <option>Operador</option>
+                    <option>Residente</option>
+                    <option>Eccelenza</option>
+                  </select>
+                <div class="form-group col-md-6">
+                  <label for="inputAyuda_Visual">Ayuda Visual</label>
+                  <input type="file" accept=".png,.jpg,.jpeg" class="form-control-file" id="inputAyuda_Visual" aria-describedby="fileHelp">
+                  <small id="fileHelp" class="form-text text-muted">Solo ".png , .jpg y .jpeg" extención.</small>
+              </div> 
+              </div>   
+            </div>
+            <div class="row d-flex justify-content-around mb-2">
+              <button type="button"  id="create" class="btn  col-4">Agregar</button>
+              <button type="button"  id="remove" class="btn  col-4">Remover</button>
+            </div>
+            <div class="row d-flex justify-content-center mb-4">
+              <button type="submit" name="submit" id="submit" class="btn btn-primary col-8">Terminar</button>
+            </div>
+          </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- current date -->
+    <script src="./js/currentDate.js"></script>
+    <!-- current time -->
+    <script src="./js/currentTime.js"></script>
+    <!-- add and remove forms -->
+    <script src="./js/CSAP-DHLbutton.js"></script>
+  </body>
+</html>

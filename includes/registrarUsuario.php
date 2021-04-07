@@ -32,7 +32,7 @@
             <h2 class="text-center m-3"> Registrar usuario </h2> 
 
 
-            <form class="container-fluid mt-5 w-25" method="POST">
+            <form class="container-fluid mt-5 col-md-3" method="POST">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Nombre de usuario:</label>
                         <input type="text" reuired name="nombre" id="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe el nombre del nuevo usuario...">
@@ -46,7 +46,7 @@
                     <label for="tipoUsuario">Tipo de usuario:</label>
                     <select class="form-select mt-2" reuired name="tipoUsuario" id="tipoUsuario" aria-label="Default select example">
                         <option value="2">Selecciona un tipo de usuario...</option>
-                        <option value="0">Usuario</option>
+                        <option value="0">Cliente</option>
                         <option value="1">Administrador</option>
                     </select>
                     

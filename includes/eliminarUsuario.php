@@ -32,7 +32,7 @@
             <h2 class="text-center m-3">Eliminar usuario </h2> 
 
 
-            <form class="container-fluid mt-5 w-25" method="POST">
+            <form class="container-fluid mt-5 col-md-3" method="POST">
                    
                     <label for="tipoUsuario">Usuario a eliminar:</label>
                     <select class="form-select mt-2" reuired name="usuario" id="usuario" aria-label="Default select example">
