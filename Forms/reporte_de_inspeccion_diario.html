@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Reporte de Inspección Diario</title>
+  </head>
+  <body>
+    <h1 class="text-center">Reporte de Inspección Diario</h1>
+    <div class="container">
+        <form method="POST">
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputNombre_Proveedor">Nombre del Proveedor</label>
+                <input type="text" class="form-control" id="inputNombre_Proveedor" placeholder="Nombre del Proveedor">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputNombre_Parte">Nombre de la Parte</label>
+                <input type="text" class="form-control" id="inputNombre_Parte" placeholder="Nombre de la Parte">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputNumero_Parte">Número de Parte</label>
+                <input type="text" class="form-control" id="inputNumero_Parte" placeholder="Número de Parte">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputOrden_Trabajo">Órden de Trabajo</label>
+                <input type="text" class="form-control" id="inputNumero_Parte" placeholder="Órden de trabajo">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputPlanta">Planta</label>
+                <input type="text" class="form-control" id="inputPlanta" placeholder="Planta">
+              </div>
+              <div class="form-group col-md-4">
+                <fieldset disabled>
+                    <label for="inputDate">Fecha</label>
+                    <input class="form-control" type="text"  id="inputDate">
+                </fieldset>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="Representant_Name">Representant Name</label>
+                <select id="Representant_Name" class="form-control">
+                  <option selected>Choose</option>
+                  <option>Representant 1</option>
+                  <option>Representant 2</option>
+                  <option>Representant 3</option>
+                </select>
+              </div>
+            </div>
+            <fieldset disabled>
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <label for="inputDate">Date</label>
+                        <input class="form-control" type="text"  id="inputDate">
+                    </div>
+                </div>     
+            </fieldset>
+            <iframe width="700" height="900" frameborder="0" scrolling="no" src="https://myunitecedu-my.sharepoint.com/personal/daniel_acevedo15_my_unitec_edu_mx/_layouts/15/Doc.aspx?sourcedoc={7d929fd2-90eb-424e-86a6-e458be093f10}&action=embedview&wdAllowInteractivity=False&AllowTyping=True&Item='FR-FP.04.01'!Print_Area&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+              
+            
+            <button type="submit" name="submit" id="submit" class="btn btn-primary col-12">Submit</button>
+          </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- current date -->
+    <script src="./js/currentDate.js"></script>
+  </body>
+</html>
