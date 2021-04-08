@@ -23,7 +23,7 @@
     <main class="form-signin">
         <form method="POST">
             <img class="mb-4" src="img/logo.png" alt="" width="170">
-            <h1 class="h3 mb-3 fw-normal">Inicia seción</h1>
+            <h1 class="h3 mb-3 fw-normal">Inicia sesión</h1>
 
             <div class="form-floating">
                 <input type="text" class="form-control" name="user" id="user" required placeholder="user">
