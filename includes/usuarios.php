@@ -18,6 +18,15 @@
     <link rel="stylesheet" href="../css/login-style.css">
 
     <title>Administrador</title>
+
+    <style>
+        .modificar-button{
+            background-color: azure;
+        }
+        .modificar-button:hover{
+            background-color: rgb(194, 204, 204);
+        }
+    </style>
 </head>
 
 <body>
@@ -33,6 +42,7 @@
                     <th scope="col">Clave</th>
                     <th scope="col">Nombre</th>
                     <th scope="col ">Tipo de usuario</th>
+                    <th scope="col ">Permisos</th>
                     
                                                     
                 </tr>
@@ -45,7 +55,14 @@
               consultarUsuarios();
               
                                       
-            ?>                           
+            ?> 
+            <tr> 
+          <td>1</td>
+          <td>Daniel</td>
+          <td class="text-center">Administrador</td>
+          <td class="text-center">revision colaborador, etcetera</td>
+                                                        
+          </tr>'                         
             </tbody>
         </table>
     </div>

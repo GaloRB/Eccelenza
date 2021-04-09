@@ -104,7 +104,9 @@ function consultarUsuarios(){
           <td>'.$row['Id_usuario'].'</td>
           <td>'.$row['Nombre'].'</td>
           <td class="text-center">'.$row['tipoUsuario'].'</td>
-          
+          <td class="text-center">'.$row['Permiso'].'</td>
+          <td><button type="button" class="btn modificar-button mt-auto">Modificar</button></td>
+          <td><button type="button" class="btn btn-primary mt-auto">Eliminar</button></td>
                                                            
           </tr>';
       }  
