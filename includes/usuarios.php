@@ -56,13 +56,7 @@
               
                                       
             ?> 
-            <tr> 
-          <td>1</td>
-          <td>Daniel</td>
-          <td class="text-center">Administrador</td>
-          <td class="text-center">revision colaborador, etcetera</td>
-                                                        
-          </tr>'                         
+            '                         
             </tbody>
         </table>
     </div>
