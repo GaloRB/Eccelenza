@@ -17,10 +17,10 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
-                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeClient.php' ? 'href="forms/chcecklistIspeccion.php"' : 'href="forms/chcecklistIspeccion.php"'; ?>>Check List De Inspección</a></li>
-                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeClient.php' ? 'href="forms/nonconformity_material_notification.php"' : 'href="../forms/nonconformity_material_notification.php"'; ?>>No conformidad</a></li>
+                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeClient.php' ? 'href="Forms/chcecklistIspeccion.php"' : 'href="Forms/chcecklistIspeccion.php"'; ?>>Check List De Inspección</a></li>
+                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeClient.php' ? 'href="Forms/nonconformity_material_notification.php"' : 'href="../Forms/nonconformity_material_notification.php"'; ?>>No conformidad</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeClient.php' ? 'href="forms/reporte_semanal.php"' : 'href="../forms/reporte_semanal.php"'; ?>>Reporte semanal</a></li>
+                    <li><a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeClient.php' ? 'href="Forms/reporte_semanal.php"' : 'href="../Forms/reporte_semanal.php"'; ?>>Reporte semanal</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">
