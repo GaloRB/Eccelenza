@@ -39,3 +39,10 @@ form .form-floating:nth-child(2n) {
 .navbar-name p {
     margin: 0;
 }
+
+.form-group{
+    margin-top: 1.5rem;
+}
+.form-group-info{
+    color: white;
+}
