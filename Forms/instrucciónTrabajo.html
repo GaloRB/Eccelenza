@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Instrucción de trabajo</title>
+  </head>
+  <body>
+    <h1 class="text-center">Instrucción de trabajo</h1>
+    <div class="container">
+        <form method="POST">
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <fieldset disabled>
+                    <label for="inputCliente">Cliente</label>
+                    <input type="text" class="form-control" id="inputCliente">
+                </fieldset>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputNombre_Parte">Nombre de la Parte</label>
+                <input type="text" class="form-control" id="inputNombre_Parte" placeholder="Nombre de la Parte">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputNumero_Parte">Número de parte</label>
+                <input type="text" class="form-control" id="inputNumero_Parte" placeholder="Número de parte">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputLocacion">Locación</label>
+                    <input type="text" class="form-control" id="inputLocacion" placeholder="Lugar en la empresa">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="input_Riesgo">Nivel de Riesgo</label>
+                    <select id="input_Riesgo" class="form-control">
+                      <option selected>Nivel...</option>
+                      <option>Bajo</option>
+                      <option>Medio</option>
+                      <option>Alto</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputProblem_Description">Descripción del Problema</label>
+                    <textarea class="form-control" id="inputProblem_Description" rows="2"></textarea>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="input_Tipo_inspeccion">Tipo de inspección</label>
+                    <select id="input_Tipo_inspeccion" class="form-control">
+                      <option selected>Nivel...</option>
+                      <option>Inspección</option>
+                      <option>Tipo 2</option>
+                      <option>Tipo 3</option>
+                    </select>
+                </div>
+            </div>
+            <fieldset disabled>
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <label for="inputDate">Fecha</label>
+                        <input class="form-control" type="text"  id="inputDate">
+                    </div>
+                </div>     
+            </fieldset>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="inputMaterial_uso">Materiales a usar</label>
+                    <textarea class="form-control" id="inputMaterial_uso" rows="2"></textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                  <label for="InputPieces_Number">Número de piezas</label>
+                  <input type="text" class="form-control" id="InputPieces_Number" placeholder="Número de piezas">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="inputPlanta">Planta</label>
+                  <input type="text" class="form-control" id="inputPlanta" placeholder="Planta">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="InputInspectores">No. inspectores</label>
+                    <input type="number" class="form-control" id="InputInspectores" placeholder="Inspectores">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="InputPiezas_Contenedor">No. Piezas por Contenedor</label>
+                    <input type="number" class="form-control" id="InputPiezas_Contenedor" placeholder="Piezas / Contenedor">
+                </div>
+            </div>
+            <h3>Equipo de Seguridad</h3>
+            <div class="form-row">
+                <div class="form-group col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="0" id="checkboxLentes_Seguridad">
+                        <label class="form-check-label" for="checkboxLentes_Seguridad">
+                          Lentes de seguridad
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="1" id="checkboxLentes_Chaleco">
+                        <label class="form-check-label" for="checkboxLentes_Chaleco">
+                          Chaleco
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="2" id="checkboxZapato_Seguridad">
+                        <label class="form-check-label" for="checkboxZapato_Seguridad">
+                          Zapato de seguridad
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="3" id="checkboxGuantes">
+                        <label class="form-check-label" for="checkboxGuantes">
+                          Guantes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="4" id="checkboxManga_Larga">
+                        <label class="form-check-label" for="checkboxManga_Larga">
+                          Manga larga
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="5" id="checkboxMascarilla">
+                        <label class="form-check-label" for="checkboxMascarilla">
+                          Manscarilla
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="6" id="checkboxLentes">
+                        <label class="form-check-label" for="checkboxLentes">
+                          Lentes de seguridad
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="7" id="checkboxFaja">
+                        <label class="form-check-label" for="checkboxFaja">
+                          Faja
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="8" id="checkboxMandil">
+                        <label class="form-check-label" for="checkboxMandil">
+                          Mandil
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="9" id="checkboxCareta">
+                        <label class="form-check-label" for="checkboxCareta">
+                          Careta
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="checkboxTapones">
+                        <label class="form-check-label" for="checkboxTapones">
+                          Tapones Auditivos
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="11" id="checkboxCasco">
+                        <label class="form-check-label" for="checkboxCasco">
+                          Casco
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="12" id="checkboxOtro">
+                        <label class="form-check-label" for="checkboxOtro">
+                          Otros 
+                        </label>
+                        <textarea hidden class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Anota Cúales"></textarea>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <h3>Procedimientos de Inspección</h3>
+                <div class="procedimientos">
+                    <h5>Paso 1</h5>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputMaterial_uso">Descripción de los procedimientos</label>
+                            <textarea class="form-control" id="inputMaterial_uso" rows="2" placeholder="Describe los pasos del paso"></textarea> 
+                        </div>
+                        <div class="form-group col-md-6 ml-md-4">
+                            <label for="inputPhotography">Fotos para ayuda visual</label>
+                            <input type="file" accept=".png,.jpg,.jpeg" class="form-control-file" id="inputPhotography" aria-describedby="fileHelp">
+                            <small id="fileHelp" class="form-text text-muted">Photography with ".png , .jpg and .jpeg" extention.</small>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary mb-4">Agregar Paso</button>
+                </div>
+            </section>
+            <section>
+                <h3>Ayudas Visuales</h3>
+                <p>Agrega una foto de una pieza colocada correctamente y una de manera erronea</p>
+                <div class="form-group col-md-6 ml-md-4">
+                    <label for="inputPhotography_Correct" class="text-success">Pieza colocada correctamente</label>
+                    <input type="file" accept=".png,.jpg,.jpeg" class="form-control-file" id="inputPhotography_Correct" aria-describedby="fileHelp">
+                    <small id="fileHelp" class="form-text text-muted">Photography with ".png , .jpg and .jpeg" extention.</small>
+                </div>
+                <div class="form-group col-md-6 ml-md-4">
+                    <label for="inputPhotography" class="text-danger">Pieza colocada erroneamente</label>
+                    <input type="file" accept=".png,.jpg,.jpeg" class="form-control-file" id="inputPhotography" aria-describedby="fileHelp">
+                    <small id="fileHelp" class="form-text text-muted">Photography with ".png , .jpg and .jpeg" extention.</small>
+                </div>
+            </section>
+            <button type="submit" name="submit" id="submit" class="btn btn-primary col-12 mb-4">Enviar</button>
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- current date -->
+    <script src="./js/currentDate.js"></script>
+  </body>
+</html>
