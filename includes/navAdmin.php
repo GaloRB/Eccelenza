@@ -23,6 +23,58 @@
                 </ul>
                 </li>
                 <li class="nav-item">
+                <a class="nav-link" href="#">Recursos Humanos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Inspección y Rat</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Representación
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Reportes
+                            </a>
+                            <ul>
+                                <li>
+                                    <a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="forms/chcecklistIspección.php"' : 'href="../forms/chcecklistIspección.php"'; ?>>Inspección</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="forms/nonconformity_material_notification.php"' : 'href="../forms/nonconformity_material_notification.php"'; ?>>No conformidad</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="forms/reporte_semanal.php"' : 'href="../forms/_eporte_semanal.php"'; ?>>Reporte semanal</a>
+                                </li> 
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" <?php echo $ruta = basename($_SERVER['PHP_SELF']) == 'homeAdmin.php' ? 'href="forms/chcecklistIspección.php"' : 'href="../forms/chcecklistIspección.php"'; ?>>Checklist</a>
+                        </li>
+                        
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Ventas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Compras</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Instrucción de Trabajo</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Almacenamiento</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">No Conformidad</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Atención al Cliente</a>
+                </li>
+                <li class="nav-item">
                 <a class="nav-link" href="#">Opcion</a>
                 </li>
                 <li class="nav-item">
